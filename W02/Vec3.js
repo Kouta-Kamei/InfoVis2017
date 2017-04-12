@@ -1,3 +1,11 @@
+Vec3 = function(x,y,z)
+{
+ this.x=x;
+ this.y=y;
+ this.z=z;
+}
+
+
 Vec3.prototype.min = function()
 {
 var a;
@@ -14,7 +22,7 @@ if(a>this.z)
     a=this.z;
   }
   return a;
-}
+};
 
 Vec3.prototype.mid = function()
 {
@@ -32,7 +40,7 @@ if(a>this.z)
     a=this.z;
   }
   return a;
-}
+};
 
 Vec3.prototype.max = function()
 {
@@ -50,7 +58,7 @@ if(a<this.z)
     a=this.z;
   }
   return a;
-}
+};
 
 
 
