@@ -42,7 +42,7 @@ if(a>this.z)
   return a;
 }
 
-Vec3.protptype.max = function()
+Vec3.prototype.max = function()
 {
 var a;
 if(this.x>this.y)
