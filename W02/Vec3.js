@@ -39,6 +39,7 @@ if(a>this.z)
   {
     a=this.z;
   }
+  return a;
 }
 
 Vec3.protptype.max = function()
