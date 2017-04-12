@@ -22,7 +22,7 @@ if(a>this.z)
     a=this.z;
   }
   return a;
-};
+}
 
 Vec3.prototype.mid = function()
 {
@@ -40,7 +40,7 @@ if(a>this.z)
     a=this.z;
   }
   return a;
-};
+}
 
 Vec3.prototype.max = function()
 {
@@ -58,7 +58,7 @@ if(a<this.z)
     a=this.z;
   }
   return a;
-};
+}
 
 
 
