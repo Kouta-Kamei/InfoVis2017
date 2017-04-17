@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>W02: Example 08 </title>
+  </head>
+  <body>
+    <script src="vec3.js"></script>
+    <script>
+      var x0=0,y0=1,z0=2;
+      var x1=1,y1=2,z1=3;
+      var x2=2,y2=4,z2=6;
+      var v0=new Vec3(x0,y0,z0);
+      var v1=new Vec3(x1,y1,z1);
+      var v2=new Vec3(x2,y2,z2);
+      var S= AreaOfTriangle(v0,v1,v2);
+      document.write("Input v0:")
+      document.write("\n",v0.x,"\n",v0.y,"\n",v0.z,"<BR>");
+      document.write("Input v1:")
+      document.write("\n",v1.x,"\n",v1.y,"\n",v1.z,"<BR>");
+      document.write("Input v2:")
+      document.write("\n",v2.x,"\n",v2.y,"\n",v2.z,"<BR>");
+      document.write(S);
+    </script>
+  </body>
+</html>
+

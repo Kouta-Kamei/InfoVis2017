@@ -66,3 +66,19 @@ Vec3.prototype.max = function()
     return this.x;
   }
 }
+
+function AreaOfTriangle(v0,v1,v2)
+{
+  var Ax=v1.x-v0.x;
+  var Ay=v1.y-v0.y;
+  var Az=v1.z-v0.z;
+  var Bx=v2.x-v0.x;
+  var By=v2.y-v0.y;
+  var Bz=v2.z-v0.z;
+  var  A=Math.pow(Ax,2)+Math.pow(Ay,2)+Math.pow(Az,2) ;
+  var  B=Math.pow(Bx,2)+Math.pow(By,2)+Math.pow(Bz,2) ;
+  var AB=Math.pow(Ax*Bx+Ay*By+Az*Bz,2);
+  var  S=Math.sqrt(A*B-AB)/2 ;
+  return S;
+}
+
